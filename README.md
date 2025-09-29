@@ -82,15 +82,14 @@ This project is a Lead Analysis & Scoring System built with Laravel, PHP, and op
 
 **Clone**:
 
-git clone https://github.com/zineb-khaloua/Leads-Analysis.git
+- git clone https://github.com/zineb-khaloua/Leads-Analysis.git
 
 
-**Install**:
+- Create a new database :Lead Scoring
 
-composer install
-npm install         
-npm run dev         
+- Navigate to database/leads.sql.
 
+- Import this file into the your database.  
 
 **Configure .env (example):**
 
