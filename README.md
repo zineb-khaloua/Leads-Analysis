@@ -54,7 +54,7 @@ This project is a Lead Analysis & Scoring System built with Laravel, PHP, and op
 
 **Project Workflow**
 
-- Generate Sample Websites (You can point the seeder or lead importer to real public websites (e.g. https://acme.example.com) instead of the local demo pages.)
+- Generate Sample Websites (You can point the seeder or lead importer to real public websites  instead of the local demo pages.)
 
 - HTML files representing various companies are placed in public/sample-sites.
 
