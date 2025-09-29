@@ -16,7 +16,7 @@ This project is a Lead Analysis & Scoring System built with Laravel, PHP, and op
 
 - Classifies leads into High, Medium, or Low categories.
 
-- Assigns a numerical score (0–100) representing lead quality or conversion potential.
+- Assigns a numerical score (0–100%) representing lead quality or conversion potential.
 
 - Can be integrated with Hugging Face or other AI APIs for real-time text analysis.
 
@@ -80,20 +80,19 @@ This project is a Lead Analysis & Scoring System built with Laravel, PHP, and op
 
 **how to use**
 
-# Clone:
+**Clone**:
 
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/zineb-khaloua/Leads-Analysis.git
 
 
-# Install:
+**Install**:
 
 composer install
 npm install         
 npm run dev         
 
 
-# Configure .env (example):
+**Configure .env (example):**
 
 APP_NAME="Lead Scoring"
 DB_CONNECTION=mysql
@@ -103,16 +102,16 @@ DB_DATABASE=lead_scoring_db
 DB_USERNAME=root
 DB_PASSWORD=
 
-# Optional (Hugging Face)
+**Hugging Face**
 HUGGINGFACE_API_TOKEN=hf_xxx...
 
 
-# Run migrations + seed:
+**Run migrations + seed:**
 
 php artisan migrate:fresh --seed
 
 
-# Serve and open:
+**Serve and open:**
 
 php artisan serve
 # visit http://127.0.0.1:8000
